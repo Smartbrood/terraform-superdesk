@@ -6,11 +6,6 @@ Terraform and Packer to deploy Superdesk, Apcera, BRL-CAD in Clouds
 + make
 + terraform
 
-
-## Caveats
-+ Superdesk installator doesn't work on instances with memory less whan 2GB.
-
-
 ## Usage
 Install **git**, **make** and **terraform**
 
@@ -47,3 +42,6 @@ sudo vagrant up
 
 ## TODO
 + Ansible playbook: Add https support to superdesk, Backup Superdesk data.
+
+## Caveats
++ Superdesk installator doesn't work on instances with memory less whan 2GB.
