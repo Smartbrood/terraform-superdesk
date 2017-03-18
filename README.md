@@ -10,14 +10,15 @@ Terraform and Packer to deploy Superdesk, Apcera, BRL-CAD in Clouds
 + Superdesk installator doesn't work on instances with memory less whan 2GB.
 
 
-## AWS
+## Usage
++ Copy terraform.tfvars.example to terraform.tfvars and fill-in your credentials.
 
-### Deploy
+Deploy to AWS
 ```bash
 make aws
 ```
 
-### Destroy
+Destroy AWS
 ```bash
 make destroy_aws
 ```
