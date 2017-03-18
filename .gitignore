@@ -1,3 +1,14 @@
+
+#Terraform
+.terraform/
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+
+#Packer
+secrets.json
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
