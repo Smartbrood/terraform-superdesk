@@ -17,8 +17,8 @@ show: plan
 
 #AWS
 aws: plan
-	terraform apply -target=module.aws \
-	terraform refresh \
+	terraform apply -target=module.aws ; \
+	terraform refresh ; \
 	terraform output aws_public_ip
 
 destroy_aws: validate
