@@ -12,9 +12,18 @@ Terraform and Packer to deploy Superdesk, Apcera, BRL-CAD in Clouds
 
 
 ## Usage
-+ Install **git**, **make** and **terraform**
-+ Clone repo **git clone https://github.com/Smartbrood/terraform-superdesk.git**
-+ Change to repo dir **cd terraform-superdesk**
+Install **git**, **make** and **terraform**
+
+Clone repo
+```bash
+git clone https://github.com/Smartbrood/terraform-superdesk.git
+```
+
+Change to repo dir
+```bash
+cd terraform-superdesk
+```
+
 + Copy **terraform.tfvars.example** to **terraform.tfvars** and fill-in your credentials.
 
 Deploy to AWS
