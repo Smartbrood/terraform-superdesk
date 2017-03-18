@@ -26,7 +26,7 @@ output "digitalocean_superdesk_ip" {
       value = "${module.digitalocean.superdesk_ip}"
 }
 
-output "aws_public_ip" {
+output "aws_superdesk_ip" {
       value = "${module.aws.superdesk_ip}"
 }
 
