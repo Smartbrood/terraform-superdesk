@@ -11,7 +11,7 @@ Terraform and Packer to deploy Superdesk, Apcera, BRL-CAD in Clouds
 
 
 ## Usage
-+ Copy terraform.tfvars.example to terraform.tfvars and fill-in your credentials.
++ Copy **terraform.tfvars.example** to **terraform.tfvars** and fill-in your credentials.
 
 Deploy to AWS
 ```bash
