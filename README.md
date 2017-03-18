@@ -24,7 +24,7 @@ Change to repo dir
 cd terraform-superdesk
 ```
 
-+ Copy **terraform.tfvars.example** to **terraform.tfvars** and fill-in your credentials.
+Copy **terraform.tfvars.example** to **terraform.tfvars** and fill-in your credentials.
 
 Deploy to AWS
 ```bash
