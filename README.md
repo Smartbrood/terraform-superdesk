@@ -41,6 +41,7 @@ sudo vagrant up
 ```
 
 ## TODO
++ Add option to change default ssh key
 + Ansible playbook: Add https support to superdesk, Backup Superdesk data.
 
 ## Caveats
