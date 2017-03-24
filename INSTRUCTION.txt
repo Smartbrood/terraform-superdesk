@@ -1,0 +1,27 @@
+1. Install Terraform.
+1.1 Follow the instruction to download and install Terraform: https://www.terraform.io/intro/getting-started/install.html
+
+2. Install Make.
+2.1 For MacOS: Install Xcode from App Store. Then start Xcode, go to Xcode->Preferences->Downloads and install component named "Command Line Tools".
+2.2 For Debian based Linux: Execute "sudo apt-get install make" from command line interface.
+2.3 For RedHat based Linux: Execute "sudo yum install make" from command line interface. 
+
+3. Download terraform-superdesk code and provide credentials for AWS.
+3.1 Download file "master.zip" from https://github.com/Smartbrood/terraform-superdesk/archive/master.zip
+3.2 Unpack "master.zip"
+3.3 Change to unpacked dir "terraform-superdesk-master"
+3.4 Copy file "terraform.tfvars.example" to "terraform.tfvars"
+3.5 Edit file "terraform.tfvars". Write your credentials for AWS there. It should be values for "aws_access_key" and "aws_secret_key". There is instruction how to create access keys for AWS account: http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html.
+
+4. Deploy Superdesk on AWS
+4.1 Open terminal (comand line interface) and change to dir "terraform-superdesk-master"
+4.2 Execute "make aws" from command line interface.
+4.3 After the installation is completed, the address of superdesk will be displayed.
+
+
+5. Destroy Superdesk on AWS
+5.1 Make backup of all important data in Superdesk. It will be deleted during destroy.
+5.2 Open terminal (comand line interface) and change to dir "terraform-superdesk-master"
+5.3 Execute "make destroy_aws" from command line interface. Type "yes" to confirm destroy.
+
+
